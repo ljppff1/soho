@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white" >
+
+    <LinearLayout
+        android:id="@+id/staffmap_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#00712c"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/title_staff"
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="员工轨迹"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/bt_upload_postion"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="定时上传" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_starttime_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/staffmap_top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="开始时间:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/search_starttime_btn"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/editbox_background"
+            android:drawableRight="@drawable/jcrq"
+            android:gravity="left|center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_endtime_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_starttime_ll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="结束时间:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/search_endtime_btn"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/editbox_background"
+            android:drawableRight="@drawable/jcrq"
+            android:gravity="left|center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_username_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_endtime_ll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="用  户  名:"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/search_username_rl"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:background="@android:drawable/editbox_background" >
+
+            <ImageView
+                android:id="@+id/search_username_image"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:src="@drawable/right" />
+
+            <TextView
+                android:id="@+id/search_username_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/back"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/search_username_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_username_ll"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bt_staff_search"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="搜  索" />
+
+        <Button
+            android:id="@+id/bt_staff_cancel"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="取  消" />
+    </LinearLayout>
+
+</RelativeLayout>

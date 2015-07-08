@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4c9fc1" >
+ <com.baidu.mapapi.map.MapView
+        android:id="@+id/getmapView"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:clickable="true" />
+    <LinearLayout
+        android:id="@+id/resign_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/titlebar_bg_nor"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/resign_bt_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="返回" />
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="位置补录"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/resign_bt_pc_records"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="提交" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/resign_top"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/number_resign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right"
+                android:text="@string/attendance_peoplenum"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            
+             <RelativeLayout
+                android:id="@+id/people_resign_id"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="@android:drawable/editbox_background" >
+
+                <ImageView
+                    android:id="@+id/people_travel_image"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="3dp"
+                    android:src="@drawable/right" />
+
+                <TextView
+                    android:id="@+id/people_resign_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/back"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/people_resign_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+            </RelativeLayout>
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/people_resign"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/number_resign"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:text="@string/attendance_retroactivepeople"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/retroactivepeople"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="@android:drawable/editbox_background"
+                android:editable="false"
+                android:gravity="left|center_vertical"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/time_resign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/people_resign"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/attendance_time"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            
+             <Button
+                    android:id="@+id/attendance_time"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:background="@android:drawable/editbox_background"
+                    android:drawableRight="@drawable/jcrq"
+                    android:gravity="left|center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/position_resign"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/time_resign"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/attendance_addr"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/choosenpostion_regist"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:background="@android:drawable/editbox_background"
+                android:editable="false"
+                android:gravity="left|center_vertical"
+                android:textColor="#000000"
+                android:drawableRight="@drawable/ditu"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

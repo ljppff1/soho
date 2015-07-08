@@ -1,0 +1,569 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6274/androidworkspace/SOHO/res/layout
+END
+add_travel_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/add_travel_activity.xml
+END
+public_notificationdetail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/public_notificationdetail_activity.xml
+END
+day_punch_card_records.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/2938/androidworkspace/SOHO/res/layout/day_punch_card_records.xml
+END
+travel_approvalauditback_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/travel_approvalauditback_activity.xml
+END
+ann_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1456/androidworkspace/SOHO/res/layout/ann_list_item.xml
+END
+cost_report_lookdetail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/cost_report_lookdetail_activity.xml
+END
+item_marketing_report_approve.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5251/androidworkspace/SOHO/res/layout/item_marketing_report_approve.xml
+END
+item_audit_list_lookdetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5251/androidworkspace/SOHO/res/layout/item_audit_list_lookdetail.xml
+END
+attention_notification_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/attention_notification_activity.xml
+END
+add_position_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/add_position_activity.xml
+END
+item_attention_notification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5344/androidworkspace/SOHO/res/layout/item_attention_notification.xml
+END
+popwindow_listview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4735/androidworkspace/SOHO/res/layout/popwindow_listview_item.xml
+END
+query_title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/query_title_bar.xml
+END
+marketing_report_auditback_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/marketing_report_auditback_activity.xml
+END
+work_overtime_approvaldetail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/work_overtime_approvaldetail_activity.xml
+END
+rili.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1856/androidworkspace/SOHO/res/layout/rili.xml
+END
+public_notification_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/public_notification_activity.xml
+END
+attention_notificationsend_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/attention_notificationsend_activity.xml
+END
+xcqz_local_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/xcqz_local_image.xml
+END
+announcement_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1456/androidworkspace/SOHO/res/layout/announcement_list_item.xml
+END
+leave_record_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/res/layout/leave_record_list_item.xml
+END
+staff_traje_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/res/layout/staff_traje_activity.xml
+END
+mydialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1830/androidworkspace/SOHO/res/layout/mydialog.xml
+END
+punch_card.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6274/androidworkspace/SOHO/res/layout/punch_card.xml
+END
+leaveapprovalsingleaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/leaveapprovalsingleaudit_activity.xml
+END
+work_overtime_approval_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/work_overtime_approval_activity.xml
+END
+example_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5066/androidworkspace/SOHO/res/layout/example_top.xml
+END
+takephoto_main_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/takephoto_main_activity.xml
+END
+cost_report_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/cost_report_activity.xml
+END
+xcqz_show_pic_grid.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/xcqz_show_pic_grid.xml
+END
+item_cost_report_lookdetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5251/androidworkspace/SOHO/res/layout/item_cost_report_lookdetail.xml
+END
+marketing_report_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/marketing_report_activity.xml
+END
+xcqz_take_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/xcqz_take_image.xml
+END
+propress_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/664/androidworkspace/SOHO/res/layout/propress_dialog.xml
+END
+popupview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1621/androidworkspace/SOHO/res/layout/popupview.xml
+END
+leaveapprovaldetail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/leaveapprovaldetail_activity.xml
+END
+item_public_notification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5251/androidworkspace/SOHO/res/layout/item_public_notification.xml
+END
+work_overtime_approvalaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/work_overtime_approvalaudit_activity.xml
+END
+leaveapprovalaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/leaveapprovalaudit_activity.xml
+END
+cost_report_audit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/cost_report_audit_activity.xml
+END
+item_work_overtime_approve.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5681/androidworkspace/SOHO/res/layout/item_work_overtime_approve.xml
+END
+xlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/937/androidworkspace/SOHO/res/layout/xlistview_header.xml
+END
+overtime_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/overtime_activity.xml
+END
+punchcard_items_show_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6274/androidworkspace/SOHO/res/layout/punchcard_items_show_result.xml
+END
+punchcard_items.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6274/androidworkspace/SOHO/res/layout/punchcard_items.xml
+END
+marketing_report_detail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/marketing_report_detail_activity.xml
+END
+attention_notificationdetail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/attention_notificationdetail_activity.xml
+END
+date_time_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1880/androidworkspace/SOHO/res/layout/date_time_dialog.xml
+END
+auditlistlookmore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/auditlistlookmore.xml
+END
+api_tab_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/480/androidworkspace/SOHO/res/layout/api_tab_item.xml
+END
+travel_approval_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/travel_approval_activity.xml
+END
+audit_list_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/audit_list_activity.xml
+END
+work_overtime_approvalauditback_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/work_overtime_approvalauditback_activity.xml
+END
+xcqz_upload_pic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/xcqz_upload_pic.xml
+END
+leaveapprovalauditback_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/leaveapprovalauditback_activity.xml
+END
+cost_report_auditback_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/cost_report_auditback_activity.xml
+END
+staff_traje__search_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/staff_traje__search_activity.xml
+END
+app_gv_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/2166/androidworkspace/SOHO/res/layout/app_gv_item.xml
+END
+resign_runchcard_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/resign_runchcard_activity.xml
+END
+cost_report_detail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/cost_report_detail_activity.xml
+END
+audit_list_audit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/audit_list_audit_activity.xml
+END
+xcqz_show_excute_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/xcqz_show_excute_image.xml
+END
+work_overtime_approvalsingleaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/work_overtime_approvalsingleaudit_activity.xml
+END
+img_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4890/androidworkspace/SOHO/res/layout/img_view.xml
+END
+leaveapp_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4891/androidworkspace/SOHO/res/layout/leaveapp_list_item.xml
+END
+home_gridview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/480/androidworkspace/SOHO/res/layout/home_gridview_item.xml
+END
+travel_approvalsingleaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/travel_approvalsingleaudit_activity.xml
+END
+item_travel_approve.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5681/androidworkspace/SOHO/res/layout/item_travel_approve.xml
+END
+cost_report_singleaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5526/androidworkspace/SOHO/res/layout/cost_report_singleaudit_activity.xml
+END
+listviewshow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/res/layout/listviewshow.xml
+END
+all_app.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4897/androidworkspace/SOHO/res/layout/all_app.xml
+END
+calendar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1830/androidworkspace/SOHO/res/layout/calendar.xml
+END
+popwindow_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/3364/androidworkspace/SOHO/res/layout/popwindow_listview.xml
+END
+xlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/937/androidworkspace/SOHO/res/layout/xlistview_footer.xml
+END
+item_cost_report_approve.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5251/androidworkspace/SOHO/res/layout/item_cost_report_approve.xml
+END
+marketing_report_singleaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/marketing_report_singleaudit_activity.xml
+END
+localpostion_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/3662/androidworkspace/SOHO/res/layout/localpostion_activity.xml
+END
+api_tab_host.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/480/androidworkspace/SOHO/res/layout/api_tab_host.xml
+END
+searchpostion_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/3582/androidworkspace/SOHO/res/layout/searchpostion_activity.xml
+END
+markreport_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4892/androidworkspace/SOHO/res/layout/markreport_list_item.xml
+END
+travel_approvaldetail_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/travel_approvaldetail_activity.xml
+END
+cx_city.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/cx_city.xml
+END
+home_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1653/androidworkspace/SOHO/res/layout/home_activity.xml
+END
+travel_approvalaudit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/travel_approvalaudit_activity.xml
+END
+leave_record_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/3296/androidworkspace/SOHO/res/layout/leave_record_activity.xml
+END
+item_leave_approve.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5349/androidworkspace/SOHO/res/layout/item_leave_approve.xml
+END
+add_position_item_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/res/layout/add_position_item_activity.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4080/androidworkspace/SOHO/res/layout/login.xml
+END
+takephoto_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4895/androidworkspace/SOHO/res/layout/takephoto_activity.xml
+END
+item_audit_list_approve.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5251/androidworkspace/SOHO/res/layout/item_audit_list_approve.xml
+END
+day_punch_card_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/res/layout/day_punch_card_list_item.xml
+END
+leaveapproval_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/leaveapproval_activity.xml
+END
+askforleave_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6274/androidworkspace/SOHO/res/layout/askforleave_activity.xml
+END
+marketing_report_audit_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5527/androidworkspace/SOHO/res/layout/marketing_report_audit_activity.xml
+END

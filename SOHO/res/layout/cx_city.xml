@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/includeLayout"
+        layout="@layout/query_title_bar"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/cxcitylv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

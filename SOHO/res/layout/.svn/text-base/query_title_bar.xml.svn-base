@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical" >
+
+    <EditText
+        android:id="@+id/queryEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:hint="关键字"
+        android:paddingLeft="4dp"
+        android:inputType="text"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/queryBtn"
+        android:layout_width="50dp"
+        android:layout_centerVertical="true"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:contentDescription="@string/action_settings"
+        android:scaleType="fitCenter"
+        android:src="@drawable/searchbig" />
+
+    <View
+        android:id="@+id/plant"
+        style="@style/listview_head"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/queryBtn"
+        android:background="@color/gray"
+        android:visibility="gone"
+         />
+
+    <ImageButton
+        android:id="@+id/delBtn"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/plant"
+        android:background="@null"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/action_settings"
+        android:scaleType="fitCenter"
+        android:src="@drawable/clean"
+         android:visibility="gone"
+       />
+</RelativeLayout>

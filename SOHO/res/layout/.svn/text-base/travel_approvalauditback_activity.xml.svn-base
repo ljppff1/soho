@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_main" >
+
+ 
+<LinearLayout
+        android:id="@+id/travel_app_auditback_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_list_top"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/travel_app_auditback_bt_back"
+            style="@style/style_title_button_back"/>
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="出差反审批"
+            android:textColor="@android:color/white" />
+    <Button
+            style="@style/style_title_button_back1"
+             /> 
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/travel_app_auditback_ll_bottom"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:id="@+id/travel_app_auditback_btncancel"
+             style="@style/style_button_bottom"
+            android:text="取消"
+          />
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:layout_weight="1"  
+            style="@style/style_button_bottom"
+            android:text="反审批"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/travel_app_auditback_btnreturn"
+            />        
+ 
+    </LinearLayout>
+    
+    
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/travel_app_auditback_top"
+        android:layout_above="@id/travel_app_auditback_ll_bottom"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp" >
+
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff" >
+
+            
+                                    <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/travel_app_auditback_ll_lookmore"
+                android:background="@drawable/item_list_selector">
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/activity_item_margin_top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="审批流程："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    
+                    android:layout_width="0dp"
+                    android:layout_weight="2.3"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="查看"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/mm_submenu_normal" />
+            </LinearLayout>
+            </LinearLayout>
+                       <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:background="@color/item_line" />
+                                    
+            <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+              android:layout_below="@id/travel_app_auditback_ll_lookmore"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="申请 人："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/travel_app_auditback_tv_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="ljppff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                 <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            
+            <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="申请时间："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="2014-4-4 08:04"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            
+            <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_time"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/activity_item_margin_top_linear" >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="出差类型："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_type"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="事假"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            
+                        <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_starttime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_type"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="开始时间："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_starttime"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="2014-4-4 08:04"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        
+                        <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_endtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_starttime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="结束时间："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_endtime"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="2014-4-4 08:04"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        
+                        <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_timelong"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_endtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="出差时长："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_timelong"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="28h"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        
+               <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_route"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_timelong"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="出差路线："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_route"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="从北京到天津飞武汉到汉中转深圳直达长沙转墨尔本飞纽约"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+               
+                   <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_reason"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_route"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="出差事由："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_reason"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="地地革命"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                   
+                        <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_auditstatus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_reason"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="审批状态："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_auditstatus"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="未审批"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        
+   <LinearLayout
+                android:id="@+id/travel_app_auditback_ll_auditpeople"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/travel_app_auditback_ll_auditstatus"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+              android:layout_marginTop="@dimen/activity_item_margin_top_linear"  >
+
+                <TextView
+                    android:layout_width="0dp"
+                     android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="审批人："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/travel_app_auditback_tv_auditpeople"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="ljppff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                 
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

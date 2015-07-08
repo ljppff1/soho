@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_main"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/resign_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_bg_nor"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/postion_bt_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="返回" />
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="位置选择"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/postion_bt_pc_records"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="确定" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京" />
+
+        <EditText
+            android:id="@+id/geocodekey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="海淀区上地十街10号" />
+
+        <Button
+            android:id="@+id/postion_geocode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/public_selector_bg"
+            android:text="搜索" />
+    </LinearLayout>
+    
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/postion_mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+</LinearLayout>

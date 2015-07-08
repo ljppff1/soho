@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listviewbg"
+    android:paddingBottom="8dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="8dp"
+     >
+    
+    <View
+        android:id="@+id/flag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="1" />
+    
+    
+    <ImageView 
+        android:id="@+id/iv_item_audit_list_approve_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="matrix"
+        android:src="@drawable/mm_submenu" 
+        />
+
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:layout_marginLeft="2dp"
+        android:layout_toLeftOf="@id/iv_item_audit_list_approve_right"
+        >
+        
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交人："
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="6dp"
+            
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王梅亭子"
+            android:textSize="12sp"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_audit_list_approve_names"
+            android:paddingLeft="2dp"
+            />
+              <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前步骤："
+            android:paddingLeft="20dp"
+            android:textSize="12sp"
+            android:layout_toRightOf="@id/tv_cb_item_audit_list_approve_name"
+            android:textColor="@android:color/black"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="12sp"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_audit_list_approve_moves"
+            android:paddingLeft="2dp"
+            />
+        <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_themes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题："
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/tv_cb_item_audit_list_approve_moves"
+            android:paddingLeft="6dp"
+            android:paddingTop="1dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请假申请"
+            android:maxLines="2"
+            android:paddingLeft="4dp"
+            android:textSize="12sp"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_audit_list_approve_themes"
+            android:layout_below="@id/tv_cb_item_audit_list_approve_moves"
+            android:paddingTop="1dp"
+            />
+          
+        
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_audit_list_approve_auditresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通过/张组长"
+            android:paddingRight="2dp"
+            android:textSize="13sp"
+            android:textColor="@color/red"
+            android:paddingLeft="4dp"
+            android:layout_below="@id/tv_cb_item_audit_list_approve_theme"
+			android:paddingTop="1dp"
+            />
+        
+        <TextView
+            android:id="@+id/tv_cb_item_audit_list_approve_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_cb_item_audit_list_approve_theme"
+            android:paddingTop="1dp"
+            android:text="2014/4/10 8:00"
+            android:textColor="@color/blue_1"
+            android:textSize="11sp" />
+        
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/src/com/superdata/soho/util
+END
+DownloadThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4169/androidworkspace/SOHO/src/com/superdata/soho/util/DownloadThread.java
+END
+MapApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/src/com/superdata/soho/util/MapApplication.java
+END
+QueryAppUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/2165/androidworkspace/SOHO/src/com/superdata/soho/util/QueryAppUtil.java
+END
+BaseUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/557/androidworkspace/SOHO/src/com/superdata/soho/util/BaseUtil.java
+END
+SpecialCalendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1829/androidworkspace/SOHO/src/com/superdata/soho/util/SpecialCalendar.java
+END
+LunarCalendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/src/com/superdata/soho/util/LunarCalendar.java
+END
+PatternUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5938/androidworkspace/SOHO/src/com/superdata/soho/util/PatternUtil.java
+END
+SharedPreferencesConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4451/androidworkspace/SOHO/src/com/superdata/soho/util/SharedPreferencesConfig.java
+END
+NetCheckUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/676/androidworkspace/SOHO/src/com/superdata/soho/util/NetCheckUtil.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/2710/androidworkspace/SOHO/src/com/superdata/soho/util/MD5.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/557/androidworkspace/SOHO/src/com/superdata/soho/util/StringUtils.java
+END
+SocketHttpRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4451/androidworkspace/SOHO/src/com/superdata/soho/util/SocketHttpRequester.java
+END
+CheckServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/src/com/superdata/soho/util/CheckServiceUtil.java
+END
+SaveAppUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/2165/androidworkspace/SOHO/src/com/superdata/soho/util/SaveAppUtil.java
+END
+FileDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4338/androidworkspace/SOHO/src/com/superdata/soho/util/FileDownloader.java
+END

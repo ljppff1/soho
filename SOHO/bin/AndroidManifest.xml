@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.superdata.soho"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.superdata.soho.util.MapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/soho_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <!-- 百度地图的key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="6FEgKwxkeqU2OEjzzr8Kk0la"
+            />
+<!--           测试：6FEgKwxkeqU2OEjzzr8Kk0la
+				svn: pj9RrrsXIgvZU1IGHb3KP6bz  
+
+
+
+ -->      
+      
+ <!-- com.superdata.soho.activity.entrance.LoginActivity -->
+        <!-- 登录Activity -->
+        <activity
+            android:name="com.superdata.soho.activity.entrance.LoginActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 主界面Activity -->
+        <activity
+            android:name="com.superdata.soho.activity.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity> 
+        <!-- 自定义tabHost -->
+        <activity
+            android:name="com.superdata.soho.activity.TabHostActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 首页 -->
+        <activity
+            android:name="com.superdata.soho.activity.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 审批 -->
+        <activity android:name="com.superdata.soho.activity.ApprovalActivity" >
+        </activity>
+        <!-- 考勤 -->
+        <activity android:name="com.superdata.soho.activity.AttendanceActivity" >
+        </activity>
+        <!-- 记录 -->
+        <activity android:name="com.superdata.soho.activity.RecordActivity" >
+        </activity>
+        <!-- 打卡 -->
+        <activity
+            android:name="com.superdata.soho.activity.workattendance.PunchCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 当日打卡记录 -->
+        <activity
+            android:name="com.superdata.soho.activity.workattendance.DayPunchCardRecordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 请假 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.AskForLeaveActivity" />
+        <!-- 请假记录 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.LeaveRecodeActivity" />
+        <!-- 加班 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.OverTimeActivity" />
+        <!-- 加班记录列表 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.OverTimeRecordActivity" />
+        <!-- 添加出差记录 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.AddTravelActivity" />
+        <!-- 出差记录列表 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.TravelRecordActivity" />
+        <!-- 补签 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.ResignRunchCardActivity" />
+        <!-- 员工轨迹 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.StaffTrajectoryActivity" />
+        <!-- 测试消息推送 -->
+        <activity android:name="com.superdata.soho.activity.TestPushLet" />
+        <!-- 拍照 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.TakePhotoActivity" />
+        <activity android:name="com.superdata.soho.activity.workattendance.TakePhotoMainActivity" />
+        <activity android:name="com.superdata.soho.activity.LocalPostionActivity" /> <!-- 定位当前位置 -->
+        <!-- 请假审批 -->
+        <activity android:name="com.superdata.soho.activity.approvalcenter.LeaveApprovalActivity" />
+        <activity android:name="com.superdata.soho.activity.approvalcenter.WorkOvertimeApprovalActivity" /> <!-- 加班审批 -->
+        <activity android:name="com.superdata.soho.activity.approvalcenter.TravelApprovalActivity" /> <!-- 出差审批 -->
+        <activity android:name="com.superdata.soho.activity.approvalcenter.MarketingReportActivity" /> <!-- 营销报告 -->
+        <activity android:name="com.superdata.soho.activity.approvalcenter.CostReportActivity" /> <!-- 费用支出 -->
+        <activity android:name="com.superdata.soho.activity.entrance.AnnouncementActivity" /> <!-- 公告 -->
+        <activity android:name="com.superdata.soho.activity.entrance.AnnouncementDetailActivity" />
+        <activity android:name="com.superdata.soho.activity.entrance.MessageToastActivity" /> <!-- 消息提醒 -->
+        <activity android:name="com.superdata.soho.activity.entrance.MessageDetailActivity" /> <!-- 消息详情 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.ReadImgActivity" /> <!-- 查看图片 -->
+        <activity android:name="com.superdata.soho.activity.workattendance.CalendarActivity" /> <!-- 日历页面 -->
+        <activity android:name="com.superdata.soho.activity.entrance.MyPhoneAppActivity"/><!-- 我的手机 -->
+        
+        <activity android:name="com.superdata.soho.activity.approvalcenter.LeaveApprovalDetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.LeaveApprovalBackAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.LeaveApprovalAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.WorkOvertimeApprovalDetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.WorkOvertimeApprovalBackAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.WorkOvertimeApprovalAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.TravelApprovalAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.TravelApprovalBackAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.TravelApprovalDetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.CostReportAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.CostReportBackAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.CostReportDetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.CostReportlookdetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.MarketingReportAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.MarketingReportBackAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.MarketingReportDetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.CostReportSingleAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.LeaveApprovalSingleAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.MarketingReportSingleAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.TravelApprovalSingleAuditActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.WorkOvertimeApprovalSingleAuditActivity"></activity>
+        <!-- 公告 -->
+        <activity android:name="com.superdata.soho.activity.approvalcenter.PublicNotificationActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.PublicNotificationDetailActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.AttentionNotificationActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.AttentionNotificationSendActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.AttentionNotificationDetailActivity"></activity>
+        <!-- 审批列表 -->
+        <activity android:name="com.superdata.soho.activity.approvalcenter.AuditListActivity"></activity>
+        <activity android:name="com.superdata.soho.activity.approvalcenter.AuditListAuditActivity"></activity>
+                <activity android:name="com.superdata.soho.activity.approvalcenter.AuditListBackAuditActivity"></activity>
+                <activity android:name="com.superdata.soho.activity.approvalcenter.AuditListDetailActivity"></activity>
+                <activity android:name="com.superdata.soho.activity.approvalcenter.AuditListLookMore"></activity>
+     
+        <!-- 通用的下拉列表框+单选按钮组成 -->
+        <activity android:name="com.superdata.soho.common.GridRadio"  android:windowSoftInputMode="stateHidden|adjustUnspecified"  />    
+         
+        <!-- 员工轨迹 查询 -->
+        <activity  android:name="com.superdata.soho.activity.workattendance.StaffTrajectorySearchActivity"  />    
+       
+        <!-- 拍照 -->
+        <activity  android:name="com.superdata.soho.activity.workattendance.XcqzShowImage"  />    
+        <activity  android:name="com.superdata.soho.activity.workattendance.XcqzTakeImage"  />    
+        <activity  android:name="com.superdata.soho.activity.workattendance.XcqzLocalImage"  />    
+        <activity  android:name="com.superdata.soho.activity.workattendance.XcqzShowPicUpload"  />    
+
+        <!-- 位置补录 -->
+        <activity  android:name="com.superdata.soho.activity.workattendance.AddPositionActivity"  />    
+            
+        
+         <!-- 实时查岗-->    
+        <activity  android:name="com.superdata.soho.activity.workattendance.RealTimeCheckActivity" />   
+                 
+        <!-- 定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+        
+        <!-- 定时上传服务 -->
+        <service
+            android:name="com.superdata.soho.service.UploadPostionService"
+            android:permission="android.permission.BAIDU_LOCATION_SERVICE"
+    		android:process=":remote"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.superdata.soho.service.UploadPostionService" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.superdata.soho.service.AlarmReceiver"
+            android:process=":remote" />
+    </application>
+
+</manifest>

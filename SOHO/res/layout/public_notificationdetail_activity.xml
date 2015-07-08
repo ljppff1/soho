@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/list_main" >
+
+    <LinearLayout
+        android:id="@+id/public_notification_detail_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_list_top"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/public_notification_detail_bt_back"
+            style="@style/style_title_button_back" />
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="公告详情"
+            android:textColor="@android:color/white" />
+    <Button
+            style="@style/style_title_button_back1"
+             /> 
+    </LinearLayout>
+    
+  
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/public_notification_detail_top"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff" >
+
+        
+            <LinearLayout
+                android:id="@+id/public_notification_detail_ll_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/activity_item_margin_top_linear" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="主题:"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/public_notification_detail_tv_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="3.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000000"
+                    android:text="事假"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                                         <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            
+                        <LinearLayout
+                android:id="@+id/public_notification_detail_ll_remark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/public_notification_detail_ll_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/activity_item_margin_top_linear" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="内容:"
+                    android:textColor="#000000"
+                       android:gravity="right"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/public_notification_detail_tv_remark"
+                    android:layout_width="0dp"
+                    android:layout_weight="3.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000000"
+                    android:text="asdfasdf"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                                         <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        
+                       <LinearLayout
+                android:id="@+id/public_notification_detail_ll_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/public_notification_detail_ll_remark"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/activity_item_margin_top_linear" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="创建人:"
+                       android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/public_notification_detail_tv_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="3.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000000"
+                    android:text="asdf"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                             <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                       
+            <LinearLayout
+                android:id="@+id/public_notification_detail_ll_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/public_notification_detail_ll_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="@dimen/activity_item_margin_top_linear" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="创建时间:"
+                       android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/public_notification_detail_tv_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="3.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000000"
+                    android:text="2014-4-4 08:04"
+                    android:textSize="13sp" />
+            </LinearLayout>    
+                                         <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

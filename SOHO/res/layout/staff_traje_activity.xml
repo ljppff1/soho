@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background= "#00712c" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/staffmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+    
+  <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:contentDescription="@string/attendance_search"
+            android:scaleType="fitCenter"
+            android:src="@drawable/search" />
+
+        <TextView
+            android:id="@+id/searchTv"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:background="@android:drawable/editbox_background"
+            android:gravity="center_vertical"
+            android:hint="@string/attendance_searchTv"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+    
+
+</RelativeLayout>

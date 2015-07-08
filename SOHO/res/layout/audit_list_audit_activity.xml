@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_main"
+ >
+
+     <LinearLayout
+        android:id="@+id/audit_list_lookdetail_app_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_list_top"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/audit_list_lookdetail_bt_back"
+           style="@style/style_title_button_back"/>
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="审核"
+            android:textColor="@android:color/white" />
+    <Button
+            style="@style/style_title_button_back1"
+             /> 
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/audit_list_lookdetail_app_audit_ll_bottom"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"            android:visibility="gone"
+            
+            android:layout_weight="1"
+             android:id="@+id/audit_list_lookdetail_app_audit_btncancel"
+              style="@style/style_button_bottom"
+            android:text="取消"
+         />
+           <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            style="@style/style_button_bottom"
+            android:text="终止"            android:visibility="gone"
+            
+            android:id="@+id/audit_list_lookdetail_app_audit_btnback"
+           />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+              style="@style/style_button_bottom"
+            android:text="同意"            android:visibility="gone"
+            
+            android:id="@+id/audit_list_lookdetail_app_audit_btnpass"
+           />        
+         <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+             style="@style/style_button_bottom"
+            android:text="反审批"
+            android:visibility="gone"
+            android:id="@+id/audit_list_lookdetail_app_audit_btnreturn"
+           />        
+         <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+              style="@style/style_button_bottom"
+            android:text="审批"
+            android:visibility="gone"
+            android:id="@+id/audit_list_lookdetail_app_audit_btnaudit"
+            />        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/audit_list_lookdetail_app_top"
+        android:layout_above="@id/audit_list_lookdetail_app_audit_ll_bottom"
+        >
+             
+         <LinearLayout
+                android:id="@+id/audit_list_lookdetail_app_audit_ll_auditremark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="我的意见:"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/audit_list_lookdetail_app_audit_tv_auditremark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_weight="3"
+                    android:lines="3"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        
+        
+        <ListView
+        android:id="@+id/audit_list_lookdetail_app_listview"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/audit_list_lookdetail_app_audit_ll_auditremark"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/transparent"
+        ></ListView>
+        
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 登录 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4c9fc1" >
+
+    <TextView
+        android:id="@+id/bmap_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlebar_bg_nor"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="您好，"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/bmap_top"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+		android:layout_below="@id/bmap_top"
+        android:layout_marginTop="20dp" >
+
+        <ImageButton
+            android:id="@+id/trackmapList"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/trackmap_list" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bmapView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/checkinbtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/mapcheckin_btn_gray_n" />
+
+        <ImageButton
+            android:id="@+id/checkoutbtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/mapcheckout_btn_gray_n" />
+    </LinearLayout>
+
+</RelativeLayout>

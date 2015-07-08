@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/editCheckbox"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@drawable/public_selector_bg"
+            android:text="@string/editor" />
+
+        <View
+            android:id="@+id/picPlant"
+            style="@style/listview_head"
+            android:layout_height="40dp"
+            android:background="@color/gray" />
+
+        <Button
+            android:id="@+id/delCheckbox"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+             android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:enabled="false"
+           android:background="@drawable/public_selector_bg"
+            android:text="@string/del" />
+    </LinearLayout>
+     <View
+        style="@style/botton_plant"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+    <GridView
+        android:id="@+id/mygridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>

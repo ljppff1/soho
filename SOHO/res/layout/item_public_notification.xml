@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listviewbg"
+    android:paddingBottom="8dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="8dp"
+     >
+    
+    <View
+        android:id="@+id/flag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="1" />
+    
+    
+    <ImageView 
+        android:id="@+id/iv_item_public_notification_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="matrix"
+        android:src="@drawable/mm_submenu" 
+        />
+    
+    
+  
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+                 android:layout_toLeftOf="@id/iv_item_public_notification_right"
+       
+        android:layout_marginLeft="2dp"
+        >
+        
+        
+        
+        
+        
+        
+    
+     <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/item_public_notification_ll1"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="主题："
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/tv_cb_item_public_notification_title"
+                    android:layout_height="wrap_content"
+                    android:text="基本面"
+                    android:paddingLeft="@dimen/activity_item_margin_left"
+                    android:layout_weight="4.5"
+                    android:textColor="@color/blue_1"
+                    android:textSize="13sp" />
+              
+            </LinearLayout>
+    
+        
+     <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/item_public_notification_ll1"
+                android:id="@+id/item_public_notification_ll2"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="内容："
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/tv_cb_item_public_notification_remark"
+                    android:layout_height="wrap_content"
+                    android:text="基本面厅要大"
+                                        android:paddingLeft="@dimen/activity_item_margin_left"
+                    android:maxLines="3"
+                    android:layout_weight="4.5"
+                    android:textColor="@color/blue_1"
+                    android:textSize="13sp" />
+              
+            </LinearLayout>
+        
+        
+        
+        
+  
+        <TextView 
+            android:id="@+id/tv_cb_item_public_notification_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ljppff"
+            android:textSize="11sp"
+            
+            android:textColor="@color/blue_1"
+            android:layout_below="@id/item_public_notification_ll2"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_public_notification_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014/4/10 8:00"
+            android:textSize="11sp"
+            android:textColor="@color/blue_1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/item_public_notification_ll2"
+            android:paddingTop="5dp"
+            />
+        
+      
+        
+        
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

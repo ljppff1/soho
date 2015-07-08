@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+         android:background="@drawable/list_main"
+ >
+     
+     <LinearLayout
+        android:id="@+id/attention_notification_send_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_list_top"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/attention_notification_send_bt_back"
+              style="@style/style_title_button_back"/>
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="消息回复"
+            android:textColor="@android:color/white" />
+    <Button
+           style="@style/style_title_button_back1"
+             /> 
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/attention_notification_send_ll_bottom"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom"
+        android:background="@color/transparent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+      
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+             android:id="@+id/attention_notification_send_btncancel"
+                       style="@style/style_button_bottom"
+
+            android:text="取消"
+          />
+           <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"         
+              android:id="@+id/attention_notification_send_btndelete"
+                       style="@style/style_button_bottom"
+            android:text="清空"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+                       style="@style/style_button_bottom"
+            android:text="回复"
+             android:layout_marginLeft="1dp"  
+            android:id="@+id/attention_notification_send_btnsure"
+            />        
+ 
+    </LinearLayout>
+    
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/attention_notification_send_top"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/attention_notification_send_ll_bottom"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff" >
+
+            
+                <LinearLayout
+                android:id="@+id/attention_notification_send_ll_topeople"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+        
+              <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="回复:"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/attention_notification_send_tv_people"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_weight="3"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                                                     <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                
+            
+                 <LinearLayout
+                android:id="@+id/attention_notification_send_ll_theme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="主题:"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/attention_notification_send_et_theme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_weight="3"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                                                     <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                 
+            
+            
+            
+                 <LinearLayout
+                android:id="@+id/attention_notification_send_ll_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/attention_notification_send_ll_theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="内容:"
+                    android:textColor="#000000"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/attention_notification_send_et_content"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:lines="3"
+                    android:textColor="#000000"
+                    android:layout_weight="3"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                                                     <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                 
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

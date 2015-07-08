@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_main" >
+
+    <LinearLayout
+        android:id="@+id/overtime_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_list_top"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/overtime_bt_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="返回" />
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="加  班"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/overtime_bt_pc_records"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/public_selector_bg"
+            android:text="提交" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overtime_top"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff" >
+
+            <LinearLayout
+                android:id="@+id/number_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/attendance_num"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/overtime_num_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:editable="false"
+                    android:gravity="left|center_vertical"
+                    android:textColor="#000000"
+                    android:background="@android:drawable/editbox_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/people_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/number_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/attendance_people"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/people_overtime_id"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:background="@android:drawable/editbox_background" >
+
+                    <ImageView
+                        android:id="@+id/people_overtime_image"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="3dp"
+                        android:src="@drawable/right" />
+
+                    <TextView
+                        android:id="@+id/people_overtime_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="left"
+                        android:textColor="@color/back"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/people_overtime_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/department_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/people_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/attendance_dep"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/department_overtime_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:editable="false"
+                    android:textColor="#000000"
+                    android:background="@android:drawable/editbox_background" 
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/position_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/department_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/attendance_position"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/position_overtime_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:editable="false"
+                    android:textColor="#000000"
+                     android:background="@android:drawable/editbox_background" 
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/type_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/position_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="加班类型:"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/type_overtime_id"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:background="@android:drawable/editbox_background" >
+
+                    <ImageView
+                        android:id="@+id/type_overtime_image"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="3dp"
+                        android:src="@drawable/right" />
+
+                    <TextView
+                        android:id="@+id/type_overtime_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/back"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/type_overtime_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/start_time_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/type_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="开始时间:"
+                     android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/start_time_overtime_id"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:background="@android:drawable/editbox_background"
+                    android:drawableRight="@drawable/jcrq"
+                    android:gravity="left|center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/end_time_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/start_time_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="结束时间:"
+                     android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/end_time_overtime_id"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:background="@android:drawable/editbox_background"
+                    android:drawableRight="@drawable/jcrq"
+                    android:gravity="left|center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/total_time_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/end_time_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="时   长(h):"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/total_time_overtime_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="3"
+                    android:digits="0123456789"
+                     android:background="@android:drawable/editbox_background" 
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/reason_overtime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/total_time_overtime"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                     android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_gravity="right|center_vertical"
+                    android:text="加班事由:"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/reason_overtime_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:textColor="#000000"
+                    android:inputType="textMultiLine"
+                    android:minLines="5"
+                    android:gravity="left|top"
+                    android:background="@android:drawable/editbox_background"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

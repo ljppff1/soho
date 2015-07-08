@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/src/com/superdata/soho/service
+END
+HttpClientService.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/src/com/superdata/soho/service/HttpClientService.java
+END
+ScheduleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/1829/androidworkspace/SOHO/src/com/superdata/soho/service/ScheduleDAO.java
+END
+FileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4081/androidworkspace/SOHO/src/com/superdata/soho/service/FileService.java
+END
+AlarmReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/2165/androidworkspace/SOHO/src/com/superdata/soho/service/AlarmReceiver.java
+END
+UploadPostionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5577/androidworkspace/SOHO/src/com/superdata/soho/service/UploadPostionService.java
+END
+DownloadProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4081/androidworkspace/SOHO/src/com/superdata/soho/service/DownloadProgressListener.java
+END
+SDHttpClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4081/androidworkspace/SOHO/src/com/superdata/soho/service/SDHttpClient.java
+END
+DBOpenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/4081/androidworkspace/SOHO/src/com/superdata/soho/service/DBOpenHelper.java
+END

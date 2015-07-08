@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listviewbg"
+    android:paddingBottom="8dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="8dp"
+     >
+    
+    <View
+        android:id="@+id/flag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="1" />
+    
+    
+    
+    
+    
+    
+     <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/item_cost_report_lookdetail_ll1"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="费用类型："
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/tv_cb_item_cost_report_lookdetail_name"
+                    android:layout_height="wrap_content"
+                    android:text="出差费"
+                    android:paddingLeft="@dimen/activity_item_margin_left"
+                    android:layout_weight="2.6"
+                    android:textColor="@color/blue_1"
+                    android:textSize="13sp" />
+              
+            </LinearLayout>
+    
+        
+     <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/item_cost_report_lookdetail_ll1"
+                android:id="@+id/item_cost_report_lookdetail_ll2"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="金额："
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/tv_cb_item_cost_report_lookdetail_money"
+                    android:layout_height="wrap_content"
+                    android:text="1111"
+                                        android:paddingLeft="@dimen/activity_item_margin_left"
+                    
+                    android:layout_weight="2.6"
+                    android:textColor="@color/blue_1"
+                    android:textSize="13sp" />
+              
+            </LinearLayout>
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/item_cost_report_lookdetail_ll2"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="备注："
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:id="@+id/tv_cb_item_cost_report_lookdetail_remark"
+                    android:layout_height="wrap_content"
+                    android:text="基本在s面厅要大"
+                    android:layout_weight="2.6"
+                    android:paddingLeft="@dimen/activity_item_margin_left"
+                    android:textColor="@color/blue_1"
+                    android:textSize="13sp" />
+              
+            </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</RelativeLayout>

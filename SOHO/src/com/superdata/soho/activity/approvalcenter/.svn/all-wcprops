@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter
+END
+PublicNotificationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5937/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/PublicNotificationActivity.java
+END
+AttentionNotificationSendActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5997/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/AttentionNotificationSendActivity.java
+END
+WorkOvertimeApprovalAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/WorkOvertimeApprovalAuditActivity.java
+END
+TravelApprovalAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/TravelApprovalAuditActivity.java
+END
+WorkOvertimeApprovalSingleAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/WorkOvertimeApprovalSingleAuditActivity.java
+END
+TravelApprovalSingleAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5343/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/TravelApprovalSingleAuditActivity.java
+END
+CostReportAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5997/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/CostReportAuditActivity.java
+END
+CostReportSingleAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/CostReportSingleAuditActivity.java
+END
+AuditListLookMore.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5575/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/AuditListLookMore.java
+END
+MarketingReportDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/MarketingReportDetailActivity.java
+END
+LeaveApprovalActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5680/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/LeaveApprovalActivity.java
+END
+TravelApprovalActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5680/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/TravelApprovalActivity.java
+END
+WorkOvertimeApprovalActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5680/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/WorkOvertimeApprovalActivity.java
+END
+MarketingReportAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5343/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/MarketingReportAuditActivity.java
+END
+CostReportActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5937/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/CostReportActivity.java
+END
+MarketingReportSingleAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/MarketingReportSingleAuditActivity.java
+END
+PublicNotificationDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5248/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/PublicNotificationDetailActivity.java
+END
+WorkOvertimeApprovalBackAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/WorkOvertimeApprovalBackAuditActivity.java
+END
+TravelApprovalBackAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5248/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/TravelApprovalBackAuditActivity.java
+END
+AttentionNotificationActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5679/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/AttentionNotificationActivity.java
+END
+CostReportBackAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5937/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/CostReportBackAuditActivity.java
+END
+LeaveApprovalDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5248/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/LeaveApprovalDetailActivity.java
+END
+WorkOvertimeApprovalDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5248/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/WorkOvertimeApprovalDetailActivity.java
+END
+TravelApprovalDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/6048/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/TravelApprovalDetailActivity.java
+END
+MarketingReportBackAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5683/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/MarketingReportBackAuditActivity.java
+END
+CostReportDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5248/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/CostReportDetailActivity.java
+END
+LeaveApprovalAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5343/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/LeaveApprovalAuditActivity.java
+END
+AuditListAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5343/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/AuditListAuditActivity.java
+END
+LeaveApprovalSingleAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5343/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/LeaveApprovalSingleAuditActivity.java
+END
+AttentionNotificationDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5679/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/AttentionNotificationDetailActivity.java
+END
+AuditListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5680/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/AuditListActivity.java
+END
+LeaveApprovalBackAuditActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5248/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/LeaveApprovalBackAuditActivity.java
+END
+CostReportlookdetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5997/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/CostReportlookdetailActivity.java
+END
+MarketingReportActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/%E9%80%9F%E8%BE%BE%E9%95%BF%E7%A0%94%E6%BA%90%E4%BB%A3%E7%A0%81/!svn/ver/5680/androidworkspace/SOHO/src/com/superdata/soho/activity/approvalcenter/MarketingReportActivity.java
+END

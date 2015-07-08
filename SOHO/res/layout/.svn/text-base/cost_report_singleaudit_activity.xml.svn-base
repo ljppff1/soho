@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_main" >
+
+   
+<LinearLayout
+        android:id="@+id/cost_report_app_singleaudit_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_list_top"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/cost_report_app_singleaudit_bt_back"
+         style="@style/style_title_button_back"/>
+
+        <TextView
+            style="@style/TextView.Middle.Black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:id="@+id/cost_report_app_singleaudit_tv_title"
+            android:text="费用支出审批"
+            android:textColor="@android:color/white" />
+    <Button
+         style="@style/style_title_button_back1"
+             /> 
+    </LinearLayout>
+  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/cost_report_app_singleauditback_ll_bottom"
+        android:layout_marginRight="10dp"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"  
+             android:id="@+id/cost_report_app_singleauditback_btncancel"
+          style="@style/style_button_bottom"
+            android:text="取消"
+         />
+        
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"  
+            android:layout_marginLeft="1dp"
+           style="@style/style_button_bottom"
+            android:text="审批"
+            android:id="@+id/cost_report_app_singleauditback_btnreturn"
+         />        
+ 
+    </LinearLayout>
+    
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cost_report_app_singleaudit_top"
+        android:layout_above="@id/cost_report_app_singleauditback_ll_bottom"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff" >
+
+             
+            <LinearLayout 
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:id="@+id/cost_report_app_singleaudit_ll_expdetail"
+                
+                android:background="@drawable/item_list_selector">
+                
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="@dimen/activity_item_margin_top"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="单据细表："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    
+                    android:layout_width="0dp"
+                    android:layout_weight="2.3"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="查看"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/mm_submenu_normal" />
+            </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:background="@color/item_line" />
+            <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               android:layout_below="@id/cost_report_app_singleaudit_ll_expdetail"                
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="制单人："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="ljppff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+           <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_namea"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_name"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="申请人："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_namea"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="ljppff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_namea"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="制单日期："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_time"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="2014-4-4 08:04"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_code"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_time"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="单号："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_code"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="10086"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_code"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="金额："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_money"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="2000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_theme"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_money"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="主题："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_theme"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="今天的费用支出类型："
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_remark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_theme"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="说明："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_remark"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="这个费用是这样子的"
+                    android:textSize="13sp" />
+            </LinearLayout>
+               
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                        <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_auditstatus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_remark"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="审批状态："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_auditstatus"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="未审批"
+                    android:textSize="13sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+            <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_auditpeople"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_auditstatus"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="审批人："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <TextView
+                    android:id="@+id/cost_report_app_singleaudit_tv_auditpeople"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:text="ljppff"
+                    android:textSize="13sp" />
+            </LinearLayout>
+                     <LinearLayout
+                android:id="@+id/cost_report_app_singleaudit_ll_auditremark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cost_report_app_singleaudit_ll_auditpeople"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"  android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="我的意见："
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                   <EditText
+                    android:id="@+id/cost_report_app_singleaudit_tv_auditremark"
+                    android:layout_width="0dp"
+                    android:layout_weight="2.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_item_margin_left"
+                    android:textColor="#000000"
+                    android:lines="3"
+                    android:textSize="13sp" />
+            </LinearLayout>   
+                        <View
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:layout_height="@dimen/activity_item_height"
+                android:layout_marginTop="@dimen/activity_item_margin_top"
+                android:background="@color/item_line" />
+                     
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

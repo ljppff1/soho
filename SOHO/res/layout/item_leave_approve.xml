@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listviewbg"
+    android:paddingBottom="8dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="8dp"
+     >
+    
+    <View
+        android:id="@+id/flag"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:tag="1" />
+    
+    
+    <ImageView 
+        android:id="@+id/iv_item_leave_approve_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="matrix"
+        android:src="@drawable/mm_submenu" 
+        />
+    
+    
+ <!--    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@id/iv_item_leave_approve_right"
+        android:layout_centerVertical="true"
+        android:scaleType="matrix"
+        android:id="@+id/ll_item_leave_approve_choice"
+        android:paddingRight="1dp"
+        >
+        
+        <Button 
+            android:id="@+id/btn_item_leave_approve_audit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="审批"
+            android:layout_weight="1"
+            android:background="@drawable/bt_selector_bg"
+            android:textSize="10sp"
+            android:focusable= "false" 
+            />
+        <Button 
+            android:id="@+id/btn_item_leave_approve_backaudit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="反审批"
+            android:background="@drawable/bt_selector_bg"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:focusable= "false" 
+            />
+    </LinearLayout>
+     -->
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/iv_item_leave_approve_right"
+       
+        android:layout_marginLeft="2dp"
+        >
+        
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请假人："
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="6dp"
+            
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王梅亭子"
+            android:textSize="12sp"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_leave_approve_names"
+            android:paddingLeft="2dp"
+            />
+             <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_timelongs"
+                        android:layout_toRightOf="@id/tv_cb_item_leave_approve_name"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请假时长："
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20dp"
+            
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_timelong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15h"
+            android:textSize="12sp"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_leave_approve_timelongs"
+            android:paddingLeft="2dp"
+            />
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_startdates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请假开始时间："
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/tv_cb_item_leave_approve_timelong"
+            android:paddingLeft="6dp"
+            android:paddingTop="1dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-01-01 09:10"
+            android:textSize="12sp"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_leave_approve_startdates"
+            android:layout_below="@id/tv_cb_item_leave_approve_timelong"
+            android:paddingTop="1dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_reasons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请假事由："
+            android:textSize="12sp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/tv_cb_item_leave_approve_startdate"
+            android:paddingLeft="6dp"
+            android:paddingTop="1dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无 "
+            android:paddingRight="2dp"
+            android:textSize="12sp"
+            android:maxLines="2"
+            android:textColor="@color/blue_1"
+            android:layout_toRightOf="@id/tv_cb_item_leave_approve_reasons"
+            android:layout_below="@id/tv_cb_item_leave_approve_startdate"
+			android:paddingTop="1dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未通过 "
+            android:textSize="13sp"
+            android:textColor="@color/red"
+            android:layout_below="@id/tv_cb_item_leave_approve_reason"
+            android:paddingLeft="6dp"
+            android:paddingTop="1dp"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_cb_item_leave_approve_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014/4/10 8:00"
+            android:textSize="11sp"
+            android:textColor="@color/blue_1"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_cb_item_leave_approve_reason"
+            android:paddingTop="1dp"
+            />
+        
+      
+        
+        
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>
